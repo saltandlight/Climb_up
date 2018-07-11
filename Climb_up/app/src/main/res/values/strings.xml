@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Climb_up</string>
+    <string name="explain_app">대한민국의 30명산의 등산로와 각 산에 서식하는 식물 정보를 알 수 있는 Climb up, up, up! 앱입니다.
+        이용하시겠어요?</string>
+    <string name="join">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="info">등산 정보</string>
+    <string name="community">커뮤니티</string>
+    <string name="log">Login</string>
+    <string name="srch">Search</string>
+    <string name="join2">JOIN</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="date">글 쓴 날짜</string>
+    <string name="act_reg">사진 등록</string>
+    <string name="act_list">사진 목록</string>
+    <string name="act_item">사진 정보</string>
+    <string name="id2">아이디</string>
+    <string name="weather">날씨 보기</string>
+    <string name="action_home">홈</string>
+    <string name="action_reg">사진 등록</string>
+    <string name="action_list">사진 목록</string>
+    <string name="action_delete">사진 삭제</string>
+    <string name="content">내용</string>
+    <string name="title">제목</string>
+    <string name="orientation">방향</string>
+    <string name="background">배경</string>
+    <string name="photo">사진</string>
+    <string name="readcount">조회수</string>
+    <string name="commun_write">후기 남기기</string>
+    <string name="commun_show">후기 보기</string>
+</resources>

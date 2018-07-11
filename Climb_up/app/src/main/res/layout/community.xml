@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/mountain">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextColor="#ffffff"/>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar1"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/show"/><!--app:srcCompat="@drawable/list1"-->
+
+    <Button
+        android:id="@+id/Bt_write"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Bt_show"
+        android:layout_alignBottom="@+id/Bt_show"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/bt_color"
+        android:text="@string/commun_write"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_marginStart="48dp"
+        android:layout_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/write"
+         /><!--app:srcCompat="@drawable/rest2"-->
+    <Button
+        android:id="@+id/Bt_show"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/bt_color"
+        android:text="@string/commun_show"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

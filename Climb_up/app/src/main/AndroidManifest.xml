@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.climb_up">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/climb_up"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_act"/>
+        <activity android:name=".Join_act"/>
+        <activity android:name=".Info_act"/>
+        <activity android:name=".Home_act"/>
+        <activity android:name=".Commun_act"/>
+        <activity android:name=".ContentsReg"/>
+        <activity android:name=".ManagementActivity"/>
+        <activity android:name=".Admin_user"/>
+        <activity android:name=".ContentsList"/>
+        <activity android:name=".ContentsShow"/>
+        <activity android:name=".MountAdapter"/>
+        <activity android:name=".MtCourse"/>
+        <activity android:name=".Weather_list"/>
+    </application>
+
+</manifest>
