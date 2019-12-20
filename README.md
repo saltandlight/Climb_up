@@ -3,8 +3,8 @@
 
 ![](/pic/pic1.PNG)
 
-![](\pic\pic2.PNG)
+![](/pic/pic2.PNG)
 
-![](\pic\pic3.PNG)
+![](/pic/pic3.PNG)
 
-![](pic\pic4.PNG)
+![](/pic/pic4.PNG)
